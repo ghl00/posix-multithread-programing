@@ -20,7 +20,7 @@ int main()
     int status;
     
     status = pthread_attr_init(&thread_attr);
-    if(status != 0)
+    if (status != 0)
         err_abort(status, "Create attr");
     
     /*
